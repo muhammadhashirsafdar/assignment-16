@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!--! Question# 1 -->
+
+
+    <div class="box">
+    <div class="container">
+    <div class="loginform">
+        <div class="task">
+        <h1><b><i>Signup Form</i></b></h1>
+    <form id="form">
+        <input type="email"  id="email" placeholder="email" required>
+        <br>
+        <br>
+        
+        <input type="password"  id="password" placeholder="password" required>
+        <input type="checkbox" name="" id="butn"><i>Show Password</i>
+        
+        <br>
+        <br>
+        <button type="button" id="batn" class="btn" onclick="submitform()">Signup</button>
+    </form>
+</div>
+</div>
+</div>
+
+
+<!-- !Question 2 -->
+
+
+<div class="question2box">
+<div class="container2">
+<div class="question2">
+    <h1>Lorem Ipsum</h1>
+    <p class="text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit rerum animi adipisci quae eum sapiente non iusto aut vitae sunt aspernatur, at quasi necessitatibus, fugit eaque delectus, autem porro placeat.
+        Odit autem sed cumque tempore nulla dolor nemo fugiat obcaecati, eius dolorem perferendis itaque expedita est facere tempora nihil iste. Molestiae perferendis debitis quibusdam vel architecto hic officia beatae. Est?
+        Cum sint magni quidem voluptates<span class="moretext"> quisquam, ullam ut magnam quae quis vero rerum? Quod itaque quibusdam quaerat impedit? Adipisci culpa distinctio minus obcaecati consequuntur omnis architecto inventore voluptatem, eligendi repellendus!
+        Deserunt explicabo, consequatur consequuntur numquam perferendis at corrupti quis commodi praesentium laboriosam adipisci similique esse, nam amet obcaecati a repellendus nisi debitis impedit quos necessitatibus pariatur culpa, magni assumenda. Sequi!
+        Assumenda porro earum autem neque! Et, ab ipsum fugit inventore tenetur veritatis ullam nesciunt illum placeat dolor odio, officia impedit. Vero magnam quis enim. Recusandae vero exercitationem corrupti illo optio.
+        Veniam velit vero hic, beatae maiores laboriosam quo eos accusantium facere sed? A excepturi voluptates praesentium dolore temporibus, voluptatibus ab optio sapiente officia beatae, tempore similique error molestiae exercitationem ea!
+        A voluptas impedit placeat accusantium eaque architecto laudantium, distinctio consequuntur doloribus, dolores vitae odit dolorum! Quod officia aspernatur omnis suscipit quis, ipsa necessitatibus eius fugit minima, corrupti quidem earum! Cumque.
+        Deserunt, vero excepturi? Sint libero voluptatem sunt. Fugiat, eligendi quos inventore quaerat unde sapiente aut magni velit ratione, eum officia aspernatur ullam! Dolore magnam enim rerum maxime animi commodi quis?
+    </span>
+    </p>
+    <button id="readbutton">Read More</button>
+</div>
+</div>
+</div>
+
+<!-- ! Question 3 -->
+
+<div class="question3box">
+<div class="container3">
+<div class="question3">
+    <h1>Student Details</h1>
+    <form id="studentForm" class="student-Form">
+        <label for="name">Name :</label >
+        <input type="text" name="name" id="name" required>
+
+        <label for="name">Father Name :</label>
+        <input type="text" name="Fathername" id="fathername" required>
+
+        <label for="name">course :</label>
+        <input type="text" name="coursename" id="coursename" required>
+
+        <button type="button" onclick="addstudent()">Add Student</button>
+
+    </form>
+
+    <table id="Studenttable">
+        <tr>
+            <th>Name</th>
+            <th>Father Name</th>
+            <th>Course Name</th>
+            <th>Action</th>
+        </tr>
+        <tbody>
+
+        </tbody>
+    </table>
+    <div class="hidden-form" id="edit-form">
+        <label for="editname">Name:</label>
+        <input type="text" name="editname" id="editname" required>
+
+        <label for="editname">Father Name:</label>
+        <input type="text" name="editname" id="editfathername" required>
+
+        <label for="editname">Course Name:</label>
+        <input type="text" name="editname" id="editcoursename" required>
+
+        <button type="button" onclick="updatestudent()">Update</button>
+    </div>
+</div>
+</div>
+</div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

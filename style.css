@@ -1,0 +1,257 @@
+
+/* !Question 1 */
+body{
+  background-color:cornsilk;
+}
+
+.box{
+    width: 100%;
+   
+    
+}
+.container{
+    background-color: darkcyan;
+    height: 500px;
+    border: 2px solid black;
+}
+
+
+/* ?  inputfields css */
+
+#email ,#password{
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 17px;
+    font-size: 15px;
+    margin-left: -20px;
+   
+}
+
+#butn{
+    margin-top: 10px;
+}
+
+
+#batn{
+    font-size: 15px;
+    padding: 5px 15px;
+    
+}
+
+
+/* ? loginform css */
+
+.loginform{
+    width: 90%;
+    max-width: 500px;
+    padding: 80px 60px;
+    margin-left: 500px; 
+    margin-right: 150px; 
+   
+}
+
+/* ? task css */
+
+.task{
+    background-color:cadetblue;
+    padding: 30px 150px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+/* ?btn  css*/
+
+.btn{
+    margin-left: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:bisque;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:beige;
+}
+
+
+
+/* ! question 2 */
+
+
+.question2box{
+    max-height: 500px;
+    
+}
+.container2{
+    background-color: black;
+    color: aliceblue;
+   border: 2px solid black;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: -18px;
+    margin-top: 20px;
+    
+}
+
+.text{
+    font-size: 24px;
+}
+
+.moretext{
+    display: none;
+}
+
+#readbutton{
+    padding: 15px 60px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 25px;
+}
+
+
+/* !Question 3 */
+
+
+   .question3box{
+    height: 500px;
+   
+    
+   }
+
+
+  .container3{
+  
+    color: black;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: -20px;
+    background-color:gray;
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+  
+  
+  /* ?Student form css */
+
+
+  .student-Form button{
+    padding: 8px 18px;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .student-Form button:hover{
+    background-color: rgba(7, 167, 7, 0.857);
+  
+  }
+  .student-Form input{
+    padding: 7px 17px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+  }
+  
+  .student-Form label{
+    font-size:25px ;
+  }
+  
+  
+  /* ?Table css */
+  
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      background-color: aliceblue;
+      opacity: 0.88;
+      
+    }
+  
+  
+  
+    table, th, td {
+      border: 3px solid black;
+    }
+  
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+  
+    th {
+      background-color: aliceblue;
+      color: black;
+    }
+  
+  /* ? Hidden form css */
+  
+  
+    .hidden-form {
+      display: none;
+      margin-top: 20px;
+      color: black;
+    }
+  
+    .hidden-form input{
+      padding: 8px;
+      font-size: 18px;
+      border-radius: 25px;
+      border: 1px solid black;
+    }
+  
+    .hidden-form label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 20px;
+      
+    }
+  
+    .hidden-form button {
+      padding: 8px 18px;
+      margin-top: 10px;
+      cursor: pointer;
+      color: black;
+      border: 1px solid black;
+      border-radius: 25px;
+      font-size: 15px;
+  
+    }
+  
+    .hidden-form button:hover{
+      background-color: rgba(7, 167, 7, 0.857);
+    }
+  
+  
+    /* ?editbtn css */
+  
+    .editbtn{
+      font-size: 17px;
+      border: 1px solid black;
+      border-radius: 18px;
+      padding: 6px 16px;
+      cursor: pointer;
+    }
+  
+    .editbtn:hover{
+      background-color:rgba(7, 167, 7, 0.857);
+    }
+  
+    /* ?deltbtncss */
+    
+    .deltbtn{
+      font-size: 17px;
+      border: 1px solid black;
+      border-radius: 18px;
+      padding: 6px 16px;
+      cursor: pointer;
+    }
+  
+    .deltbtn:hover{
+      background-color:rgba(7, 167, 7, 0.857);
+    }
